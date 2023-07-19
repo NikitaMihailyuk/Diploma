@@ -16,7 +16,7 @@ namespace UnitTests.ApiTests
         public void InitApiClient()
         {
           // apiClient = new BaseApiClient("https://isthisnikita.testrail.io/index.php?/api/v2");
-          //  apiClient.AddToken("vd0SC5SATgakfaOApOYa-DJPIScT3dEp1AzUgVms5");
+           apiClient.AddToken(Core.Configuration.Configuration.Api.Token);
         }
 
     }
